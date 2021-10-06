@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	width: 400px;
+	height: 300px;
+	border: 2px dotted #cacaca;
+	border-radius: 5px;
+}
+
+div p,
+svg {
+	width: 300px;
+	height: 150px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+	overflow: hidden;
+}
+
+div p span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 300px;
+	border: 50px solid;
+	box-sizing: border-box;
+	border-color: lime lime #ddd #ddd;
+	border-radius: 50%;
+	transform: rotate(135deg);
+	transition: 0.5s;
+}
+
+input {
+	position: relative;
+	left: 25%;
+	top: 20px;
+	width: 200px;
+	cursor: pointer;
+}
+
+div svg circle:nth-child(2) {
+	stroke: lime;
+	stroke-dasharray: 393;
+	transition: 0.5s;
+}
+
+h4 {
+	text-align: center;
+	margin: 5px;
+}

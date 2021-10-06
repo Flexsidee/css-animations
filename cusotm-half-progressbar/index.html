@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Custom Half Progressbar</title>
+	</head>
+	<body>
+		<div class="">
+			<h4>Pure CSS Progressbar</h4>
+			<p>
+				<span></span>
+				<small>0%</small>
+			</p>
+			<input type="number" value="0" min="135" max="315" name="" id="max" />
+		</div>
+		<div class="">
+			<h4>SVG Icon Progressbar</h4>
+			<svg>
+				<g fill="none" stroke="#ddd">
+					<circle cx="150" cy="150" r="125" stroke-width="50" />
+					<circle cx="150" cy="150" r="125" stroke-width="50" id="circle" />
+					<text x="150" y="125" text-anchor="center" fill="#222" stroke="none">
+						0%
+					</text>
+				</g>
+			</svg>
+			<input type="range" value="0" min="394" max="786" name="" id="han" />
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
