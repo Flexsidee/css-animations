@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e5e5e5;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	background-color: white;
+	border-radius: 20px;
+	width: 500px;
+	height: 330px;
+	box-shadow: 0px 5px 10px grey;
+	padding: 1rem 2rem 7rem 2rem;
+	position: relative;
+}
+
+.doughnut {
+	position: relative;
+}
+
+.button-box {
+	transform: translate(60%, -300%);
+}
+
+.report-button {
+	background: #ffffff;
+	border: 1px solid #71737a;
+	box-sizing: border-box;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	color: #71737a;
+	border-radius: 200px;
+	cursor: pointer;
+}
+
+.report-button:hover {
+	background-color: whitesmoke;
+}
